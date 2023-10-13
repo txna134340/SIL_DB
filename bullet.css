@@ -55,10 +55,30 @@ body{
     padding-right: 5px;
     float: left;
 }
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; 
+    }
+
+    #title {
+        font-size: 24px; 
+    }
+
+    .navb {
+        padding: 8px 10px; 
+        font-size: 14px; 
+    }
+}
 .row{
     margin: 20px;
     font-family:'Paytone One';font-style: normal;
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
 }
